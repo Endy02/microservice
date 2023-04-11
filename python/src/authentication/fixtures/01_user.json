@@ -1,0 +1,102 @@
+[
+    {
+      "model": "users.user",
+      "pk": 1,
+      "fields": {
+        "password": "pbkdf2_sha256$390000$L4MbX6ULCSArdVBFGUVRZ8$LPbeOt5yd040Z8vnlwqXhvvDAIOcm7OkIsMFP3K+zI4=",
+        "first_name": "Asap",
+        "last_name": "Mudi",
+        "email": "fujyn.contact@gmail.com",
+        "username": "fujyn",
+        "address": "1 Rue du Kebab Biggie Algerienne",
+        "postal_code": "75012",
+        "city": "Paris",
+        "date_joined": "2023-01-07T02:10:58.678Z", 
+        "last_login": "2023-01-07T02:10:58.678Z",
+        "email_verified": true,
+        "is_active": true,
+        "is_staff": true,
+        "is_superuser": true
+      }
+    },
+    {
+      "model": "users.user",
+      "pk": 2,
+      "fields": {
+        "password": "pbkdf2_sha256$390000$4xq9jmugkdFy9GjCHBvZVT$t+8skkR5YR6+9oaEVM+5L/RT0eQ63f47usv99k+qTkE=",
+        "first_name": "Francis",
+        "last_name": "Pastis",
+        "email": "frnacis.pastis@hotmail.com",
+        "username": "franko",
+        "address": "1 Rue du Kebab Biggie Algerienne",
+        "postal_code": "75012",
+        "city": "Paris",
+        "date_joined": "2023-01-07T02:10:58.678Z", 
+        "last_login": "2023-01-07T02:10:58.678Z",
+        "email_verified": true,
+        "is_active": true,
+        "is_staff": false,
+        "is_superuser": false
+      }
+    },
+    {
+      "model": "users.user",
+      "pk": 3,
+      "fields": {
+        "password": "pbkdf2_sha256$390000$4xq9jmugkdFy9GjCHBvZVT$t+8skkR5YR6+9oaEVM+5L/RT0eQ63f47usv99k+qTkE=",
+        "first_name": "Laurent",
+        "last_name": "Gina",
+        "email": "laurent.gina@hotmail.com",
+        "username": "Orangina",
+        "address": "1 Rue du Kebab Biggie Algerienne",
+        "postal_code": "75012",
+        "city": "Paris",
+        "date_joined": "2023-01-07T02:10:58.678Z", 
+        "last_login": "2023-01-07T02:10:58.678Z",
+        "email_verified": true,
+        "is_active": true,
+        "is_staff": false,
+        "is_superuser": false
+      }
+    },
+    {
+      "model": "users.user",
+      "pk": 4,
+      "fields": {
+        "password": "pbkdf2_sha256$390000$4xq9jmugkdFy9GjCHBvZVT$t+8skkR5YR6+9oaEVM+5L/RT0eQ63f47usv99k+qTkE=",
+        "first_name": "Pierre",
+        "last_name": "Cailloux",
+        "email": "pierre.cailloux@hotmail.com",
+        "username": "LaRoche",
+        "address": "1 Rue du Kebab Biggie Algerienne",
+        "postal_code": "75012",
+        "city": "Paris",
+        "date_joined": "2023-01-07T02:10:58.678Z", 
+        "last_login": "2023-01-07T02:10:58.678Z",
+        "email_verified": true,
+        "is_active": true,
+        "is_staff": false,
+        "is_superuser": false
+      }
+    },
+    {
+      "model": "users.user",
+      "pk": 5,
+      "fields": {
+        "password": "pbkdf2_sha256$390000$4xq9jmugkdFy9GjCHBvZVT$t+8skkR5YR6+9oaEVM+5L/RT0eQ63f47usv99k+qTkE=",
+        "first_name": "Harry",
+        "last_name": "Coverre",
+        "email": "harry.coverre@hotmail.com",
+        "username": "Bonduel",
+        "address": "1 Rue du Kebab Biggie Algerienne",
+        "postal_code": "75012",
+        "city": "Paris",
+        "date_joined": "2023-01-07T02:10:58.678Z", 
+        "last_login": "2023-01-07T02:10:58.678Z",
+        "email_verified": true,
+        "is_active": true,
+        "is_staff": false,
+        "is_superuser": false
+      }
+    }
+  ]

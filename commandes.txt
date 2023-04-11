@@ -1,0 +1,15 @@
+coverage run --omit='*/venv/*','*manage.py*','*settings.py*','*urls.py*','*/migrations/*' manage.py test && coverage html
+
+py manage.py collectstatic
+
+py manage.py migrate
+
+py manage.py loaddata fixtures/*.json
+
+py manage.py spectacular --color --file shema.yml
+
+minikube start --vm-driver=none
+
+kubectl apply -f ./
+
+docker build -t alexisendy/authentication:latest .

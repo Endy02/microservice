@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: authentication
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: authentication
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 3
+  template:
+    metadata:
+      labels:
+        app: authentication
+    spec:
+      containers:
+      - name: authentication
+        image: alexisendy/authentication
+        ports:
+        - containerPort: 8000
+        envFrom:
+        - configMapRef:
+            name: auth-configmap
+        - secretRef:
+            name: auth-secret
